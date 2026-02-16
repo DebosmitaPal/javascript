@@ -1,0 +1,7 @@
+const cart=[]
+//click on add to cart button on iphone product
+cart=[...cart,"iphone"]
+console.log(cart)
+
+cart=[...cart,"speaker"]
+console.log(cart)

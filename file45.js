@@ -10,12 +10,17 @@ function getStudentInfo(){
 
         },2000)
     })
-
+}
+// function displayInfo(student){
+//     console.log(student.name)
+// }
+function displayInfo({name}){
+    console.log(name)
 }
 async function main(){
     try{
         const result= await getStudentInfo()
-        console.log(result);
+        displayInfo(result);
         console.log("Program completed successfully")
     }
     catch (err) {
